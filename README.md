@@ -66,3 +66,17 @@ It uses patient health data to predict diabetes.
 
 Hiral Mam
 
+
+
+\## Features
+
+\- Diabetes Prediction
+
+\- Data Cleaning
+
+\- Data Visualization
+
+\- Model Evaluation
+
+\- Confusion Matrix
+
