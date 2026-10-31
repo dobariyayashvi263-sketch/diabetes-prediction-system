@@ -1,0 +1,6 @@
+Project Name: Diabetes Prediction System
+Domain: Machine Learning
+Algorithm: Logistic Regression
+Language: Python
+Dataset: Diabetes Prediction Dataset
+Purpose: Predict Diabetes
