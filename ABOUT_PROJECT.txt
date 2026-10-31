@@ -1,0 +1,7 @@
+DIABETES PREDICTION SYSTEM
+
+This is a Machine Learning project.
+It uses Logistic Regression.
+Python is used for implementation.
+The project includes data visualization and model evaluation.
+The system predicts diabetes based on patient health data.
