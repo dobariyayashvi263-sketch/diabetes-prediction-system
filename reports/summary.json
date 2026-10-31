@@ -1,0 +1,171 @@
+{
+  "target": "Diabetes",
+  "rows": 1000,
+  "columns_total": 13,
+  "id_cols_dropped": [
+    "Patient_ID"
+  ],
+  "feature_cols": [
+    "Age",
+    "Gender",
+    "BMI",
+    "Blood_Pressure",
+    "Glucose_Level",
+    "HbA1c",
+    "Insulin_Level",
+    "Physical_Activity",
+    "Smoking_Status",
+    "Alcohol_Consumption",
+    "Family_History",
+    "Hypertension"
+  ],
+  "numerical_cols": [
+    "Age",
+    "BMI",
+    "Blood_Pressure",
+    "Glucose_Level",
+    "HbA1c",
+    "Insulin_Level",
+    "Family_History",
+    "Hypertension"
+  ],
+  "categorical_cols": [
+    "Gender",
+    "Physical_Activity",
+    "Smoking_Status",
+    "Alcohol_Consumption"
+  ],
+  "missing_raw": 334,
+  "duplicates": 0,
+  "zero_counts": {},
+  "missing_after_fill": 0,
+  "outliers_before": {
+    "Age": 0,
+    "BMI": 8,
+    "Blood_Pressure": 0,
+    "Glucose_Level": 0,
+    "HbA1c": 0,
+    "Insulin_Level": 0
+  },
+  "outliers_after": {
+    "Age": 0,
+    "BMI": 0,
+    "Blood_Pressure": 0,
+    "Glucose_Level": 0,
+    "HbA1c": 0,
+    "Insulin_Level": 0
+  },
+  "class_counts": {
+    "0": 78,
+    "1": 922
+  },
+  "corr_with_target": {
+    "HbA1c": 0.3040084615897043,
+    "Family_History": 0.29085855408009254,
+    "Glucose_Level": 0.2599169678294694,
+    "BMI": 0.13204861474366014,
+    "Insulin_Level": 0.00687105395073678,
+    "Hypertension": 0.006510803723896023,
+    "Age": -0.04099167754066806,
+    "Blood_Pressure": -0.066703377284163
+  },
+  "train_size": 800,
+  "test_size": 200,
+  "n_features_model": 14,
+  "baseline": {
+    "Model": "Baseline Logistic Regression",
+    "Accuracy": 0.96,
+    "Precision": 0.9680851063829787,
+    "Recall": 0.9891304347826086,
+    "F1 Score": 0.978494623655914
+  },
+  "improved": {
+    "Model": "Improved (L2, C=1.0)",
+    "Accuracy": 0.96,
+    "Precision": 0.9680851063829787,
+    "Recall": 0.9891304347826086,
+    "F1 Score": 0.978494623655914
+  },
+  "best_penalty": "l2",
+  "best_C": 1.0,
+  "cv_accuracy_mean": 0.9525,
+  "cv_accuracy_std": 0.014577379737113247,
+  "reg_table": [
+    {
+      "Penalty": "l1",
+      "C": 0.01,
+      "CV F1": 0.9597
+    },
+    {
+      "Penalty": "l1",
+      "C": 0.1,
+      "CV F1": 0.9678
+    },
+    {
+      "Penalty": "l1",
+      "C": 1.0,
+      "CV F1": 0.9745
+    },
+    {
+      "Penalty": "l1",
+      "C": 10.0,
+      "CV F1": 0.9723
+    },
+    {
+      "Penalty": "l1",
+      "C": 100.0,
+      "CV F1": 0.9723
+    },
+    {
+      "Penalty": "l2",
+      "C": 0.01,
+      "CV F1": 0.9597
+    },
+    {
+      "Penalty": "l2",
+      "C": 0.1,
+      "CV F1": 0.9678
+    },
+    {
+      "Penalty": "l2",
+      "C": 1.0,
+      "CV F1": 0.9752
+    },
+    {
+      "Penalty": "l2",
+      "C": 10.0,
+      "CV F1": 0.9716
+    },
+    {
+      "Penalty": "l2",
+      "C": 100.0,
+      "CV F1": 0.9723
+    }
+  ],
+  "confusion_matrix": [
+    [
+      10,
+      6
+    ],
+    [
+      2,
+      182
+    ]
+  ],
+  "top_features": {
+    "HbA1c": 2.0264666910554636,
+    "Family_History": 1.816290270595868,
+    "Glucose_Level": 1.3124752016822792,
+    "BMI": 0.7567039700429746,
+    "Alcohol_Consumption_Moderate": 0.2715188688596882,
+    "Blood_Pressure": -0.21334347587379973,
+    "Physical_Activity_Low": -0.20909207763007995,
+    "Age": -0.1473507621929032,
+    "Insulin_Level": 0.12503685076475257,
+    "Hypertension": 0.11522900861602603,
+    "Gender_Male": 0.08433401793878262,
+    "Physical_Activity_Medium": 0.07249471908427298,
+    "Smoking_Status_Former": -0.059229568899553185,
+    "Smoking_Status_Non-smoker": -0.025724174557520695
+  }
+}

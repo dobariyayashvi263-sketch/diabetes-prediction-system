@@ -1,0 +1,3 @@
+Model,Accuracy,Precision,Recall,F1 Score
+Baseline Logistic Regression,0.96,0.9681,0.9891,0.9785
+"Improved (L2, C=1.0)",0.96,0.9681,0.9891,0.9785
